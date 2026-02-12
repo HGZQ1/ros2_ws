@@ -1,0 +1,1 @@
+/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_generator_py/vision_msgs_custom/msg/_object_distance.py

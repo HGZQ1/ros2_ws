@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vision_msgs_custom__py",
+		"source" : "/home/hgzq/ros2_ws/build/vision_msgs_custom/vision_msgs_custom__py"
+	}
+}

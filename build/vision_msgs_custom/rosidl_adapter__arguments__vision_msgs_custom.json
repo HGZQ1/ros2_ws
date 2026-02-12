@@ -1,0 +1,7 @@
+{
+  "package_name": "vision_msgs_custom",
+  "non_idl_tuples": [
+    "/home/hgzq/ros2_ws/src/vision_msgs_custom:msg/Detection2DExtended.msg",
+    "/home/hgzq/ros2_ws/src/vision_msgs_custom:msg/ObjectDistance.msg"
+  ]
+}

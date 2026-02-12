@@ -1,0 +1,1 @@
+/home/hgzq/ros2_ws/build/vision_msgs_custom/ament_cmake_environment_hooks/pythonpath.sh

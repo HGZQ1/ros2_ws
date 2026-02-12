@@ -1,0 +1,6 @@
+setup.py
+vision_msgs_custom/__init__.py
+vision_msgs_custom.egg-info/PKG-INFO
+vision_msgs_custom.egg-info/SOURCES.txt
+vision_msgs_custom.egg-info/dependency_links.txt
+vision_msgs_custom.egg-info/top_level.txt

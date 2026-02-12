@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.cpp.o"
+  "CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.cpp.o.d"
+  "CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/object_distance__type_support.cpp.o"
+  "CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/object_distance__type_support.cpp.o.d"
+  "libvision_msgs_custom__rosidl_typesupport_introspection_cpp.pdb"
+  "libvision_msgs_custom__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/detection2_d_extended__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/object_distance__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,3 @@
+source;share/vision_detector/hook/pythonpath.ps1
+source;share/vision_detector/hook/pythonpath.dsv
+source;share/vision_detector/hook/pythonpath.sh

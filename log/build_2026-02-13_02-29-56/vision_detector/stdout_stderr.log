@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating vision_detector.egg-info
+writing vision_detector.egg-info/PKG-INFO
+writing dependency_links to vision_detector.egg-info/dependency_links.txt
+writing entry points to vision_detector.egg-info/entry_points.txt
+writing requirements to vision_detector.egg-info/requires.txt
+writing top-level names to vision_detector.egg-info/top_level.txt
+writing manifest file 'vision_detector.egg-info/SOURCES.txt'
+reading manifest file 'vision_detector.egg-info/SOURCES.txt'
+writing manifest file 'vision_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hgzq/ros2_ws/install/vision_detector/lib/python3.10/site-packages/vision-detector.egg-link (link to .)
+Installing detector_node script to /home/hgzq/ros2_ws/install/vision_detector/lib/vision_detector
+
+Installed /home/hgzq/ros2_ws/build/vision_detector
+running symlink_data
+creating /home/hgzq/ros2_ws/install/vision_detector/share/ament_index
+creating /home/hgzq/ros2_ws/install/vision_detector/share/ament_index/resource_index
+creating /home/hgzq/ros2_ws/install/vision_detector/share/ament_index/resource_index/packages
+symbolically linking /home/hgzq/ros2_ws/build/vision_detector/resource/vision_detector -> /home/hgzq/ros2_ws/install/vision_detector/share/ament_index/resource_index/packages
+symbolically linking /home/hgzq/ros2_ws/build/vision_detector/package.xml -> /home/hgzq/ros2_ws/install/vision_detector/share/vision_detector

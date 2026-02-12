@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/detector.launch.py
+launch/detector_rviz.launch.py
+resource/vision_detector
+vision_detector/__init__.py
+vision_detector/detector_node.py
+vision_detector/utils.py
+vision_detector/yolov8_detector.py
+vision_detector.egg-info/PKG-INFO
+vision_detector.egg-info/SOURCES.txt
+vision_detector.egg-info/dependency_links.txt
+vision_detector.egg-info/entry_points.txt
+vision_detector.egg-info/requires.txt
+vision_detector.egg-info/top_level.txt
+vision_detector.egg-info/zip-safe

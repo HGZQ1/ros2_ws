@@ -1,0 +1,229 @@
+[0.131s] Invoking command in '/home/hgzq/ros2_ws/build/vision_msgs_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake /home/hgzq/ros2_ws/src/vision_msgs_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hgzq/ros2_ws/install/vision_msgs_custom
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.495s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.515s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.517s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.522s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.559s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.568s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.759s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.170s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.171s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.189s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.189s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.189s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.189s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.204s] -- Found PythonExtra: .so  
+[1.251s] -- Configuring done
+[1.274s] -- Generating done
+[1.281s] -- Build files have been written to: /home/hgzq/ros2_ws/build/vision_msgs_custom
+[1.288s] Invoked command in '/home/hgzq/ros2_ws/build/vision_msgs_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake /home/hgzq/ros2_ws/src/vision_msgs_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hgzq/ros2_ws/install/vision_msgs_custom
+[1.290s] Invoking command in '/home/hgzq/ros2_ws/build/vision_msgs_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake --build /home/hgzq/ros2_ws/build/vision_msgs_custom -- -j16 -l16
+[1.324s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.331s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.338s] [  5%] Built target ament_cmake_python_symlink_vision_msgs_custom
+[1.470s] running egg_info
+[1.470s] creating vision_msgs_custom.egg-info
+[1.471s] writing vision_msgs_custom.egg-info/PKG-INFO
+[1.471s] writing dependency_links to vision_msgs_custom.egg-info/dependency_links.txt
+[1.471s] writing top-level names to vision_msgs_custom.egg-info/top_level.txt
+[1.471s] writing manifest file 'vision_msgs_custom.egg-info/SOURCES.txt'
+[1.472s] reading manifest file 'vision_msgs_custom.egg-info/SOURCES.txt'
+[1.472s] writing manifest file 'vision_msgs_custom.egg-info/SOURCES.txt'
+[1.491s] [  5%] Built target ament_cmake_python_build_vision_msgs_custom_egg
+[1.565s] [ 10%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs_custom/msg/detail/object_distance__functions.c.o[0m
+[1.565s] [ 10%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_generator_c.dir/rosidl_generator_c/vision_msgs_custom/msg/detail/detection2_d_extended__functions.c.o[0m
+[1.568s] [ 10%] Built target vision_msgs_custom__cpp
+[1.576s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.576s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.578s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.601s] [ 20%] [32m[1mLinking C shared library libvision_msgs_custom__rosidl_generator_c.so[0m
+[1.632s] [ 20%] Built target vision_msgs_custom__rosidl_generator_c
+[1.640s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.640s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.640s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.795s] [ 30%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs_custom/msg/object_distance__type_support.cpp.o[0m
+[1.796s] [ 33%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vision_msgs_custom/msg/detection2_d_extended__type_support.cpp.o[0m
+[1.802s] [ 35%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.cpp.o[0m
+[1.802s] [ 38%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vision_msgs_custom/msg/detail/object_distance__type_support.cpp.o[0m
+[1.817s] [ 41%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs_custom/msg/detail/dds_fastrtps/detection2_d_extended__type_support.cpp.o[0m
+[1.817s] [ 43%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vision_msgs_custom/msg/detail/dds_fastrtps/object_distance__type_support.cpp.o[0m
+[1.866s] [ 46%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs_custom/msg/detection2_d_extended__type_support.cpp.o[0m
+[1.868s] [ 48%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_c.dir/rosidl_typesupport_c/vision_msgs_custom/msg/object_distance__type_support.cpp.o[0m
+[1.887s] [ 53%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs_custom/msg/detail/detection2_d_extended__type_support_c.cpp.o[0m
+[1.888s] [ 53%] [32mBuilding CXX object CMakeFiles/vision_msgs_custom__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vision_msgs_custom/msg/detail/object_distance__type_support_c.cpp.o[0m
+[1.891s] [ 58%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.c.o[0m
+[1.891s] [ 58%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vision_msgs_custom/msg/detail/object_distance__type_support.c.o[0m
+[1.898s] [ 61%] [32m[1mLinking CXX shared library libvision_msgs_custom__rosidl_typesupport_c.so[0m
+[1.928s] [ 64%] [32m[1mLinking C shared library libvision_msgs_custom__rosidl_typesupport_introspection_c.so[0m
+[1.937s] [ 64%] Built target vision_msgs_custom__rosidl_typesupport_c
+[1.964s] [ 64%] Built target vision_msgs_custom__rosidl_typesupport_introspection_c
+[1.990s] [ 66%] [32m[1mLinking CXX shared library libvision_msgs_custom__rosidl_typesupport_cpp.so[0m
+[2.022s] [ 66%] Built target vision_msgs_custom__rosidl_typesupport_cpp
+[2.102s] [ 69%] [32m[1mLinking CXX shared library libvision_msgs_custom__rosidl_typesupport_introspection_cpp.so[0m
+[2.111s] [ 71%] [32m[1mLinking CXX shared library libvision_msgs_custom__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.117s] [ 74%] [32m[1mLinking CXX shared library libvision_msgs_custom__rosidl_typesupport_fastrtps_c.so[0m
+[2.161s] [ 74%] Built target vision_msgs_custom__rosidl_typesupport_introspection_cpp
+[2.172s] [ 74%] Built target vision_msgs_custom__rosidl_typesupport_fastrtps_cpp
+[2.182s] [ 74%] Built target vision_msgs_custom__rosidl_typesupport_fastrtps_c
+[2.200s] [ 74%] Built target vision_msgs_custom
+[2.217s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.572s] [ 76%] Built target vision_msgs_custom__py
+[2.592s] [ 79%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs_custom/msg/_detection2_d_extended_s.c.o[0m
+[2.592s] [ 82%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_generator_py.dir/rosidl_generator_py/vision_msgs_custom/msg/_object_distance_s.c.o[0m
+[2.660s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs_custom/libvision_msgs_custom__rosidl_generator_py.so[0m
+[2.694s] [ 84%] Built target vision_msgs_custom__rosidl_generator_py
+[2.709s] [ 89%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.709s] [ 89%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_c.c.o[0m
+[2.710s] [ 92%] [32mBuilding C object CMakeFiles/vision_msgs_custom__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.786s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.786s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.786s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.839s] [100%] Built target vision_msgs_custom__rosidl_typesupport_fastrtps_c__pyext
+[2.839s] [100%] Built target vision_msgs_custom__rosidl_typesupport_c__pyext
+[2.839s] [100%] Built target vision_msgs_custom__rosidl_typesupport_introspection_c__pyext
+[2.879s] Invoked command in '/home/hgzq/ros2_ws/build/vision_msgs_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake --build /home/hgzq/ros2_ws/build/vision_msgs_custom -- -j16 -l16
+[2.889s] Invoking command in '/home/hgzq/ros2_ws/build/vision_msgs_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake --install /home/hgzq/ros2_ws/build/vision_msgs_custom
+[2.894s] -- Install configuration: ""
+[2.895s] -- Execute custom install script
+[2.895s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/ament_index/resource_index/rosidl_interfaces/vision_msgs_custom
+[2.903s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__functions.h
+[2.909s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__struct.h
+[2.916s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.h
+[2.924s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__functions.h
+[2.931s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__struct.h
+[2.938s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__type_support.h
+[2.945s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detection2_d_extended.h
+[2.952s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/object_distance.h
+[2.959s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/rosidl_generator_c__visibility_control.h
+[2.967s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/library_path.sh
+[2.976s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/library_path.dsv
+[2.983s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__rosidl_typesupport_fastrtps_c.h
+[2.990s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_fastrtps_c.h
+[2.997s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.006s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__builder.hpp
+[3.013s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__struct.hpp
+[3.020s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__traits.hpp
+[3.026s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.hpp
+[3.033s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__builder.hpp
+[3.041s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__struct.hpp
+[3.048s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__traits.hpp
+[3.056s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__type_support.hpp
+[3.064s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detection2_d_extended.hpp
+[3.071s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/object_distance.hpp
+[3.078s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.085s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__rosidl_typesupport_fastrtps_cpp.hpp
+[3.093s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_fastrtps_cpp.hpp
+[3.099s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.107s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__rosidl_typesupport_introspection_c.h
+[3.113s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_introspection_c.h
+[3.119s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.126s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/detection2_d_extended__rosidl_typesupport_introspection_cpp.hpp
+[3.133s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/include/vision_msgs_custom/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_introspection_cpp.hpp
+[3.139s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/pythonpath.sh
+[3.146s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/pythonpath.dsv
+[3.155s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom-1.0.0-py3.10.egg-info/PKG-INFO
+[3.162s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom-1.0.0-py3.10.egg-info/SOURCES.txt
+[3.169s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom-1.0.0-py3.10.egg-info/dependency_links.txt
+[3.177s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom-1.0.0-py3.10.egg-info/top_level.txt
+[3.186s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/__init__.py
+[3.193s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_c.c
+[3.200s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.207s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_introspection_c.c
+[3.214s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/libvision_msgs_custom__rosidl_generator_py.so
+[3.220s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/__init__.py
+[3.227s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_detection2_d_extended.py
+[3.234s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_detection2_d_extended_s.c
+[3.242s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_object_distance.py
+[3.250s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_object_distance_s.c
+[3.257s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.265s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.272s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] -- Up-to-date symlink: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] -- Up-to-date symlink: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] -- Up-to-date symlink: /home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.280s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/msg/Detection2DExtended.idl
+[3.287s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/msg/ObjectDistance.idl
+[3.294s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/msg/Detection2DExtended.msg
+[3.300s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/msg/ObjectDistance.msg
+[3.307s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/ament_index/resource_index/package_run_dependencies/vision_msgs_custom
+[3.314s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/ament_index/resource_index/parent_prefix_path/vision_msgs_custom
+[3.322s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/ament_prefix_path.sh
+[3.329s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/ament_prefix_path.dsv
+[3.336s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/path.sh
+[3.344s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/environment/path.dsv
+[3.351s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/local_setup.bash
+[3.358s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/local_setup.sh
+[3.365s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/local_setup.zsh
+[3.372s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/local_setup.dsv
+[3.378s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/package.dsv
+[3.385s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/ament_index/resource_index/packages/vision_msgs_custom
+[3.391s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/rosidl_cmake-extras.cmake
+[3.398s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.406s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.413s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/ament_cmake_export_libraries-extras.cmake
+[3.421s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/ament_cmake_export_targets-extras.cmake
+[3.428s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.435s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.442s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_customConfig.cmake
+[3.447s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_customConfig-version.cmake
+[3.454s] -- Symlinking: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/package.xml
+[3.460s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_generator_c.so
+[3.461s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_generator_c.so" to ""
+[3.461s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_fastrtps_c.so
+[3.461s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_fastrtps_c.so" to ""
+[3.461s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_fastrtps_cpp.so
+[3.461s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.462s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_introspection_c.so
+[3.462s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_introspection_c.so" to ""
+[3.462s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_c.so
+[3.462s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_c.so" to ""
+[3.462s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_introspection_cpp.so
+[3.462s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_introspection_cpp.so" to ""
+[3.462s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_cpp.so
+[3.463s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_typesupport_cpp.so" to ""
+[3.485s] Listing '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom'...
+[3.485s] Compiling '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/__init__.py'...
+[3.485s] Listing '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg'...
+[3.485s] Compiling '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/__init__.py'...
+[3.485s] Compiling '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_detection2_d_extended.py'...
+[3.485s] Compiling '/home/hgzq/ros2_ws/install/vision_msgs_custom/local/lib/python3.10/dist-packages/vision_msgs_custom/msg/_object_distance.py'...
+[3.488s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_generator_py.so
+[3.489s] -- Set runtime path of "/home/hgzq/ros2_ws/install/vision_msgs_custom/lib/libvision_msgs_custom__rosidl_generator_py.so" to ""
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_generator_cExport.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_generator_cExport-noconfig.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_typesupport_fastrtps_cExport.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_generator_cppExport.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.489s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_introspection_cExport.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_cExport.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_cExport-noconfig.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_introspection_cppExport.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_cppExport.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/vision_msgs_custom__rosidl_typesupport_cppExport-noconfig.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_generator_pyExport.cmake
+[3.490s] -- Installing: /home/hgzq/ros2_ws/install/vision_msgs_custom/share/vision_msgs_custom/cmake/export_vision_msgs_custom__rosidl_generator_pyExport-noconfig.cmake
+[3.492s] Invoked command in '/home/hgzq/ros2_ws/build/vision_msgs_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hgzq/ros2_ws/install/vision_detector:/opt/ros/humble /usr/bin/cmake --install /home/hgzq/ros2_ws/build/vision_msgs_custom

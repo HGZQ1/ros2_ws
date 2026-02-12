@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_msgs_custom/msg/Detection2DExtended.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+#include "vision_msgs/msg/BoundingBox2D.idl"
+#include "vision_msgs/msg/ObjectHypothesisWithPose.idl"
+
+module vision_msgs_custom {
+  module msg {
+    @verbatim (language="comment", text=
+      "扩展的2D检测消息，包含深度信息")
+    struct Detection2DExtended {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "2D边界框")
+      vision_msgs::msg::BoundingBox2D bbox;
+
+      @verbatim (language="comment", text=
+        "检测结果")
+      sequence<vision_msgs::msg::ObjectHypothesisWithPose> results;
+
+      @verbatim (language="comment", text=
+        "深度信息（米）")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "类别ID和名称")
+      int32 class_id;
+
+      string class_name;
+
+      @verbatim (language="comment", text=
+        "3D位置（相机坐标系）")
+      geometry_msgs::msg::Point position_3d;
+    };
+  };
+};

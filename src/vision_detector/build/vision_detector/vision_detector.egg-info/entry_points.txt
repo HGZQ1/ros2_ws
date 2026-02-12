@@ -1,0 +1,3 @@
+[console_scripts]
+detector_node = vision_detector.detector_node:main
+

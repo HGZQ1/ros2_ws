@@ -1,0 +1,1 @@
+/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_generator_py/vision_msgs_custom/msg/_detection2_d_extended_s.c

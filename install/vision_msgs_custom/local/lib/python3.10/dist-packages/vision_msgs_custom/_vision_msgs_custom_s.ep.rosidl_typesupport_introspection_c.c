@@ -1,0 +1,1 @@
+/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_generator_py/vision_msgs_custom/_vision_msgs_custom_s.ep.rosidl_typesupport_introspection_c.c
