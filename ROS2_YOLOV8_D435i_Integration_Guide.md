@@ -1677,12 +1677,14 @@ class VisionDetectorNode(Node):
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch vision_detector detector.launch.py
+ros2 run rqt_image_view rqt_image_view
 
 # 2. 打开终端2 - 查看结果
 ros2 topic echo /detections
 
 # 3. 打开终端3 - 可视化（可选）
-rqt_image_view
+ros2 run rqt_image_view rqt_image_view
+
 ```
 
 ### 关键文件清单

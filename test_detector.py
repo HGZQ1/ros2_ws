@@ -7,7 +7,7 @@ from vision_detector.yolov8_detector import YOLOv8Detector
 detector = YOLOv8Detector('yolov8n.pt')
 
 # 读取测试图像
-test_image = cv2.imread('test.jpg')
+test_image = cv2.imread('/home/hgzq/ros2_ws/test1.jpg')
 
 # 执行检测
 detections = detector.detect(test_image)
