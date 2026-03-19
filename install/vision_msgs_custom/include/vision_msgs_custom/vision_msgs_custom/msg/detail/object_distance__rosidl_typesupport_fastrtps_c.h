@@ -1,1 +1,0 @@
-/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_typesupport_fastrtps_c/vision_msgs_custom/msg/detail/object_distance__rosidl_typesupport_fastrtps_c.h

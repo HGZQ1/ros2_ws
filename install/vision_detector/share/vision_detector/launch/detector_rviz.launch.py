@@ -1,1 +1,0 @@
-/home/hgzq/ros2_ws/build/vision_detector/launch/detector_rviz.launch.py

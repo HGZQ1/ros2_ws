@@ -1,1 +1,0 @@
-/home/hgzq/ros2_ws/src/vision_msgs_custom/msg/Detection2DExtended.msg

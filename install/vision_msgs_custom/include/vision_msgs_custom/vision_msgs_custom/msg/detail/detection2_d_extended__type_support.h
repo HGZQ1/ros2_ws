@@ -1,1 +1,0 @@
-/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_generator_c/vision_msgs_custom/msg/detail/detection2_d_extended__type_support.h
