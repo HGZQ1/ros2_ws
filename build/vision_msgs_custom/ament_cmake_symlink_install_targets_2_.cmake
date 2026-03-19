@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hgzq/ros2_ws/build/vision_msgs_custom/rosidl_generator_py/vision_msgs_custom/vision_msgs_custom_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "vision_msgs_custom__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/vision_msgs_custom")

@@ -1,1 +1,0 @@
-/home/hgzq/ros2_ws/src/vision_detector/launch/detector.launch.py
